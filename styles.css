@@ -1,0 +1,136 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    
+}
+
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    size: 0cap;
+}
+
+hr{
+    background-color: rgb(162, 228, 184);
+    height: 2px;
+    border: none;
+    margin: 0;
+}
+.container{
+    display: flex;
+}
+.container > div {
+  margin: 20px;
+  padding: 20px;
+  font-size: 15px;
+  
+}
+.profile{
+    width: 200px;
+    height: 200px;
+    border: 4px solid rgb(162, 228, 184);
+}
+
+.sem1, .sem2, .sem3{
+    width: 300px;
+    height: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.sem1:hover, .sem2:hover, .sem3:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 5px rgb(162, 228, 184);
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor:pointer;
+}
+.tooltip-text {
+    display: none;
+    position: absolute;
+    background-color: black;
+    color: rgb(255, 16, 240);
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    z-index: 1;
+    top: 100%; 
+    left: 50%; 
+}
+
+
+.tooltip:hover .tooltip-text {
+    display:block;
+}
+
+.profile{
+ border-radius: 50%;
+
+}
+.lalagyan {
+    display: flex; 
+    align-items:center
+  }
+  
+  .picture {
+    flex: 1; 
+    padding: 8px;
+    width: 216;
+    max-width: fit-content;
+
+  }
+  
+  .name {
+    flex: 1; 
+    padding: 8px;
+    width: 216px;
+    max-width: fit-content;
+  }
+
+.parent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.child:hover {
+    background-color: white;
+    background-position: -100px 100px, -100px 100px;
+    transform: rotate3d(0.5, 1, 0, 30deg);
+    transform: perspective(180px) rotateX(60deg) translateY(2px);
+    box-shadow: 0px 10px 10px rgb(1, 49, 182);
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.button:hover {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate3d(0px, 0px, 15px) perspective(180px) rotateX(-35deg) translateY(2px);
+    border-radius: 50%;
+ }
+ .paa{
+    align-items: center;
+    text-align: center;
+ }
