@@ -1,0 +1,187 @@
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+}
+
+  
+  @media screen and (max-width: 400px) {
+    img.icon.arrow{
+        display: none;
+    }
+
+    body{
+        max-width: 400px
+    }
+
+    .illusion, .kill{
+        font-size: .8rem;
+    }
+    
+    .hamburger-icon{
+        display: flex;
+        flex-direction: column;
+        height: 15px;
+        width: 20px;
+    }
+    .propayl{
+        height: 200px;
+        width: 200px;
+        align-self: center;
+        margin-left: -70px;
+        margin-top: 0%;
+    }
+
+    #profile{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5rem;
+    }
+    #profile h1,p{
+        font-size: 1.5rem;
+    }
+
+    #about h1,p{
+        font-size: 1.5rem;
+        justify-content: center;
+
+    }
+    .about-pic {
+        height: 200px;
+        width: 200px;
+    }
+    
+    .section-container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5rem;
+        margin-left: -85px;
+    }
+    .section__pic-container {
+        flex: 1%;
+        margin-top: 20px;
+        margin-left: 20px;
+        
+    }
+
+    .about-details-container{
+        flex: 1;
+    }
+    .text-container{
+        flex: 1;
+    }
+    .text-container p{
+        font-size: 0.5rem;
+    }
+    .about.details-container{
+        gap: 0px;
+    }
+    .about-details-container h3{
+        font-size:.8rem;
+    }
+    .about-details-container p{
+        font-size:.6rem;
+
+    }
+
+    #experience{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5rem;
+        margin-top: 30rem;
+        margin-left: 100px;
+    }
+
+    #experience h1,p{
+        font-size: 1.2rem;
+    }
+
+    .about-containers {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 10px;
+      }
+      .exp-details-container1{
+        flex: 1;
+      }
+      .exp-details-container2{
+        flex: 1;
+      }
+    
+    .experience.details-container{
+        flex: 1;
+    }
+
+    .experience-sub-title{
+        font-size: .8rem;
+
+    }
+    .experience-sub-title h3{
+        font-size: .5rem;
+
+    }
+    .exp{
+        font-size: .5rem;
+    }
+    .article-container h3{
+        font-size: .75rem;
+    }
+
+    #certificates{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5rem;
+        margin-top: 2rem;
+        margin-left: 100px;
+    }
+    #certificates h1,p{
+        font-size: 1.2rem;
+    }
+    .cert-img{
+        height: 200px;
+        width: 100px;
+    }
+
+    #projects{
+        font-size: 1.2rem;
+        margin-bottom: 5rem;
+        margin-top: 20rem;
+        margin-left: 100px;
+    }
+
+    #projects h1,p{
+        font-size: 1.2rem;
+    }
+    .project-img{
+        height: 200px;
+        width: 100px;
+    }
+
+    #contact h1,p{
+        font-size: 1.2rem;
+    }
+    .contact.section__text__p1, .contact.title{
+        font-size: 1rem;
+    }
+    .paa1, .paa2{
+        font-size: 0.7rem;
+        text-align: center;
+    }
+    .nav-links-container{
+        display: none;
+    
+    }
+    footer p{
+        font-size: 0.7rem;
+        text-align: center;
+        margin-left: -20px;
+    }
+
+  }
+  
+    
+  
