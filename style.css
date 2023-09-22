@@ -302,9 +302,9 @@ transform: scale(1.1);
 }
 
 .arrow {
-  position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
+  position: relative;
+  margin-top: 2rem;
+  text-align: center;
 }
 
 .details-container {
@@ -457,7 +457,15 @@ article .icon {
     margin-bottom: 2rem;
     margin-top: 2rem;
   }
-  
+  .proj-details-container {
+    padding: 1rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+  }
   
 /* CONTACT */
 
