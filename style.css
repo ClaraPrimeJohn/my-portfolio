@@ -391,6 +391,9 @@ article .icon {
 }
 
 /*CERTIFICATES*/
+#certificates{
+  margin-top: -15rem;
+}
 .cert-details-container {
   padding: 1rem;
   flex: 1;
@@ -400,7 +403,13 @@ article .icon {
   border-color: rgb(163, 163, 163);
   text-align: center;
 }
-
+.cert-img {
+  border-radius: 2rem;
+  width: 300px;
+  height: 350px;
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+}
 
 
 /* PROJECTS */
@@ -429,13 +438,7 @@ article .icon {
     display: block;
     margin: 0 auto; /* Center the image horizontally */
   }
-  .cert-img {
-    border-radius: 2rem;
-    width: 300px;
-    height: 350px;
-    display: block;
-    margin: 0 auto; /* Center the image horizontally */
-  }
+  
   
   .project-title {
     margin: 1rem;
