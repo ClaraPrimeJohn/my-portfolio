@@ -13,7 +13,7 @@
         display: none;
     }
     body{
-        max-width: 400px
+        max-width: 100%
     }
 
     .illusion, .kill{
@@ -40,12 +40,13 @@
         flex-direction: column;
         margin-bottom: 5rem;
     }
-    #profile h1,p{
+    #profile h1, #profile p{
         font-size: 1.5rem;
     }
     #about{
         margin: auto;
         max-width: 100%;
+        margin-bottom: 10rem;
     }
     #about h1,p{
         font-size: 1.5rem;
@@ -53,6 +54,7 @@
     }
     .about-pic {
         max-width: 40%;
+        margin: 0 auto;
     }
     .section__pic-container{
         max-width: 100%;
@@ -100,6 +102,7 @@
         flex-direction: column;
         max-width: 100%;
         margin: auto;
+        margin-bottom: 10rem;
     }
 
     #experience h1,p{
@@ -143,6 +146,7 @@
         flex-direction: column;
         max-width: 100%;
         margin: auto;
+        margin-bottom: 50rem;
     }
     
     #certificates h1, #certificates p {
@@ -160,23 +164,42 @@
         max-width: 100%;
         margin-right: 0 auto; 
     }
-    #projects{
-        font-size: 1.2rem;
-        margin-bottom: 5rem;
-        margin-top: 20rem;
-        margin-left: 100px;
-    }
 
-    #projects h1,p{
-        font-size: 1.2rem;
+    #projects{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 2rem;
+        margin-bottom: 5rem;
+        box-sizing: border-box;
+    }
+    .projects.contact.section__text__p1, .projects.contact.title{
+        text-align: center;
     }
     .project-img{
-        height: 200px;
-        width: 100px;
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
     }
-
+    .project-container{
+        flex: 1;
+        text-align: center;
+    }
+    
+    #contact{
+        
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 2rem;
+        margin-bottom: 5rem;
+        box-sizing: border-box;
+    }
     #contact h1,p{
-        font-size: 1.2rem;
+        font-size: 0.8rem;
     }
     .contact.section__text__p1, .contact.title{
         font-size: 1rem;
