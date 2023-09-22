@@ -12,7 +12,6 @@
     img.icon.arrow{
         display: none;
     }
-
     body{
         max-width: 400px
     }
@@ -20,7 +19,9 @@
     .illusion, .kill{
         font-size: .8rem;
     }
-    
+    #hamburger-nav{
+        padding: none;
+    }
     .hamburger-icon{
         display: flex;
         flex-direction: column;
@@ -31,7 +32,6 @@
         height: 200px;
         width: 200px;
         align-self: center;
-        margin-left: -70px;
         margin-top: 0%;
     }
 
@@ -43,28 +43,33 @@
     #profile h1,p{
         font-size: 1.5rem;
     }
-
+    #about{
+        margin: auto;
+        max-width: 100%;
+    }
     #about h1,p{
         font-size: 1.5rem;
         justify-content: center;
-
     }
     .about-pic {
-        height: 200px;
-        width: 200px;
+        max-width: 40%;
+    }
+    .section__pic-container{
+        max-width: 100%;
+        justify-content: center;
     }
     
     .section-container{
         display: flex;
         flex-direction: column;
         margin-bottom: 5rem;
-        margin-left: -85px;
     }
     .section__pic-container {
-        flex: 1%;
-        margin-top: 20px;
-        margin-left: 20px;
-        
+        flex: 1;
+        margin-right: auto;
+        padding: 0;
+        max-width: 100%;
+        box-sizing: border-box; 
     }
 
     .about-details-container{
@@ -72,11 +77,14 @@
     }
     .text-container{
         flex: 1;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     .text-container p{
         font-size: 0.5rem;
     }
     .about.details-container{
+        max-width: 100%;
         gap: 0px;
     }
     .about-details-container h3{
@@ -90,9 +98,8 @@
     #experience{
         display: flex;
         flex-direction: column;
-        margin-bottom: 5rem;
-        margin-top: 30rem;
-        margin-left: 100px;
+        max-width: 100%;
+        margin: auto;
     }
 
     #experience h1,p{
@@ -131,21 +138,28 @@
         font-size: .75rem;
     }
 
-    #certificates{
+    #certificates {
         display: flex;
         flex-direction: column;
-        margin-bottom: 5rem;
-        margin-top: 2rem;
-        margin-left: 100px;
+        max-width: 100%;
+        margin: auto;
     }
-    #certificates h1,p{
+    
+    #certificates h1, #certificates p {
         font-size: 1.2rem;
+        text-align: center;
     }
-    .cert-img{
-        height: 200px;
-        width: 100px;
+    
+    .cert-img {
+        height: auto; 
+        max-width: 90%; 
     }
-
+    
+    
+    .cert-article-container{
+        max-width: 100%;
+        margin-right: 0 auto; 
+    }
     #projects{
         font-size: 1.2rem;
         margin-bottom: 5rem;
