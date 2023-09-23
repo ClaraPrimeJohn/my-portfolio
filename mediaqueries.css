@@ -6,9 +6,20 @@
         display: flex;
     }
 }
-
+.section__text{
+    order: 1;
+}
+.section__pic-container{
+    order: 2;
+}
   
   @media screen and (max-width: 400px) {
+    .section__text{
+        order: 2;
+    }
+    .section__pic-container{
+        order: 1;
+    }
     img.icon.arrow{
         display: none;
     }
