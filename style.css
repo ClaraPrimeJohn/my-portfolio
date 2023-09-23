@@ -94,6 +94,10 @@ a:hover {
     cursor: url('./assets/zoro1.apng'), auto;
 }
 
+.icon:hover{
+  cursor: url('./assets/zoro2.apng'), auto;
+}
+
 /* BURJER */
 
 #hamburger-nav {
